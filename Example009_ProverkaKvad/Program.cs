@@ -19,6 +19,6 @@ if (int.TryParse(number_As, out number_Ai))
     }
     else
     {
-        Console.WriteLine("Error");
+        Console.WriteLine("Ошибка ввода, введите числовое значение");
     }
 }
