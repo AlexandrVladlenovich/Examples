@@ -2,6 +2,7 @@
 string? a1 = Console.ReadLine();
 int b1;
 if (int.TryParse(a1, out b1))
+
 {
 if (b1==1) Console.WriteLine("Понедельник");
 else if (b1==2) Console.WriteLine("Вторник");
