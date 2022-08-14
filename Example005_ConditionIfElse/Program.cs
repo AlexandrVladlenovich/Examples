@@ -8,5 +8,6 @@ if(username.ToLower() == "саша")
 else
 {
     Console.Write("Привет, ");
-    Console.WriteLine(username);
+    Console.Write(username);
+    Console.Write("!");
 }
