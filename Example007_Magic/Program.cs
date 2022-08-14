@@ -38,6 +38,6 @@ while (count < 5);
     }
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
-    count = count + 1;
+    count++;
 }
 
